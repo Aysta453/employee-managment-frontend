@@ -1,0 +1,74 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+.check3 {
+  height: 35px;
+}
+.check {
+  width: 120px;
+  height: 50px;
+}
+.check2 {
+  width: 75px;
+  height: 39px;
+}
+
+.popup-add {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.add-inner {
+  position: fixed;
+  padding: 32px;
+  width: 100%;
+  height: 500px;
+  max-width: 600px;
+  background-color: rgb(225, 235, 198);
+  border: 1px solid black;
+  color: black;
+}
+.buttons-margin {
+  margin-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+.add-inner .title {
+  width: 100%;
+  height: 80px;
+  float: left;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.add-inner .description {
+  width: 500px;
+  margin-left: 18px;
+  height: 300px;
+  font-size: 30px;
+  font-weight: 500;
+  float: left;
+}
+
+.add-inner .submitButtonBox {
+  width: 100%;
+  height: 100px;
+  float: left;
+}
