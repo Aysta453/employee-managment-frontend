@@ -68,3 +68,39 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Opis projektu
+
+Celem projektu jest zaimplementowanie aplikacji do obsługi danych o pracownikach (imię, nazwisko, stanowisko, wynagrodzenie), a następnie przeprowadzenie na tych danych operacji typu: utwórz, edytuj, odczytaj, usuń.
+
+
+Wykonana przy użyciu ReactJS. Po uruchomieniu aplikacji zawartość dostępna jest pod adresem localhost:3000. Strona główna przedstawia listę pracowników z bazy danych. 
+
+Aktualnie nie ma żadnego pracownika w bazie danych. Nad napisem “Employees” znajdują się pola do wyszukiwania/ filtrowania danych natomiast pod nim widoczna jest tabela z pracownikami oraz przycisk, dzięki któremu można z poziomu aplikacji dodać pracownika.
+
+Utworzenie pracownika
+Po naciśnięciu przycisku Add Employee pojawia się okno z polami do wypełnienia:
+-	imię
+-	nazwisko
+-	stanowisko
+-	wynagrodzenie
+
+
+Wypełnianie pól jest walidowane, w polach tekstowych nie można użyć znaków a w polu z wynagrodzeniem nie jest możliwe wprowadzenie liter.
+Po wprowadzeniu przykładowego pracownika tabela na stronie głównej wygląda następująco:
+
+
+
+W tabeli wyświetlają się informacje o pracowniku oraz dwa przyciski: edytowanie danych pracownika oraz usunięcie pracownika.
+Edycja pracownika
+Edycja danych pracownika wygląda następująco:
+
+
+Zmiany wprowadzone w oknie z edycją działają poprawnie.
+Po naciśnięciu przycisku “delete” z bazy danych usunie się wybrany przez nas pracownik:
+
+Pozostałe funkcjonalności
+
+Aplikacja posiada również filtrowanie/wyszukiwanie danych oraz sortowanie kolumn. Do bazy dodano kilkuset pracowników, filtrowanie i sortowanie wygląda następująco:
+
