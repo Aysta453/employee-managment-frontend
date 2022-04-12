@@ -9,14 +9,26 @@ The application has implemented validation that prevents the introduction of ina
 ### Project functionalities
 
 The application has all the elements enabling the proper management of the employee database by:
-* operację CRUD 
-* wyszukiwanie na podstawie wpisanego imienia, nazwiska, stanowiska lub przedziału wynagrodzenia
-* sortowanie po odpowiednich kolumnach
+* CRUD operation
+* search based on the entered name, surname, position or salary range
+* sort by appropriate columns
 
-
+#### Main Page
 
 ![image](https://user-images.githubusercontent.com/58811103/162950946-199bba6b-644b-4a3d-8704-8b5d549968f6.png)
+
+#### Create Popup
+
 ![image](https://user-images.githubusercontent.com/58811103/162950986-8d6a422d-ccae-4e60-9e4b-1cd19a90be81.png)
+
+#### Edit Popup
+
 ![image](https://user-images.githubusercontent.com/58811103/162950997-8e4fd613-50d2-4b0d-b64f-c346e11c06a1.png)
+
+#### Main Page after used DBSeed from api aplication
+
 ![image](https://user-images.githubusercontent.com/58811103/162951016-08538ee6-5e05-4fbd-8c83-e41e503b5635.png)
+
+#### Employee earnings search result from 10.000 to 30.000
+
 ![image](https://user-images.githubusercontent.com/58811103/162951097-71aff53d-687a-45b7-ad32-ae6a4166d78c.png)
